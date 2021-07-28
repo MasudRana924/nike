@@ -1,12 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Nike React Fashion</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- row css -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <!-- header section -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="icons/Logo.png" height="39px" width="291px" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-bar" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item anchor">
+                            <a class="nav-link " id="anchor" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="anchor" href="#">Product </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="anchor" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="anchor" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container " style="background-color: papayawhip; padding-bottom: 30px; margin-top: 20px;">
+            <div class="row d-flex  flex-row justify-content-center align-items-center">
+
+                <div class="col-12 col-lg-6 col-md-6">
+                    <img src="images/Group 33092.png" width="549px" height="500px" class="d-block w-100" alt="">
+                </div>
+                <div class="col-12 col-lg-6 col-md-6 px-md-3 px-lg-3 my-3" style="padding-left: 100px;">
+                    <h1> <span style="color:orange;">NIKE REACT</span>
+                        <br>
+                        <span>INFINITY RUN 2</span>
+
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Beatae, sed?</p>
+
+                    <button class="btn btn-primary" style="padding: 5px 15px 5px 15px;"><svg
+                            xmlns="http://www.w3.org/2000/svg" class="svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg> BUY NOW</button>
+
+
+                </div>
+
+            </div>
+
+        </section>
+    </header>
+    <main>
+        <!-- woman jacket -->
+        <section class="container mt-5">
+            <h2>CASUAL SHOES</h2>
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 gy-4 mt-3">
+                <div class="col">
+                    <div class="card p-2 shadow p-3 mb-5 bg-body rounded">
+                        <img style="height:300px;" src="images/Daco_1703273 1.png" class="card-img-top card-img rounded"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <h2 class="text-orange">$234</h2>
+                            <button class="btn btn-primary px-4 rounded-2">
+                                <i class="fas fa-shopping-cart"></i>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-2 shadow p-3 mb-5 bg-body rounded">
+                        <img style="height:300px;" src="images/pngegg 1.png" class="card-img-top card-img rounded"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <h2 class="text-orange">$234</h2>
+                            <button class="btn btn-primary px-4 rounded-2">
+                                <i class="fas fa-shopping-cart"></i>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-2 shadow p-3 mb-5 bg-body rounded">
+                        <img style="height:300px;" src="images/image 5.png" class="card-img-top card-img rounded"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <h2 class="text-orange">$234</h2>
+                            <button class="btn btn-primary px-4 rounded-2">
+                                <i class="fas fa-shopping-cart"></i>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

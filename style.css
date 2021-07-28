@@ -1,0 +1,19 @@
+body{
+    margin:0 auto;
+}
+.nav-bar{
+    margin-left: 350px;
+}
+#anchor{
+    color: #3C3C3C;
+    font-weight: 500;
+    padding-left: 15px;
+}
+.svg{
+    display: inline;
+    height: 20px;
+    width: 25px;
+}
+.card-img{
+    background-color: gray;
+}
